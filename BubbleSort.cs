@@ -1,7 +1,8 @@
 public int[] BubbleSort (int[] array)
 {
-	var counter = 1;
-	while (counter != 0)
+	var counter;
+	
+	do
 	{
 		counter = 0;
 		var temp = new int();
@@ -15,5 +16,5 @@ public int[] BubbleSort (int[] array)
 				counter++;
 			}
 		}
-	}
+	}while (counter != 0)
 }
